@@ -1,0 +1,22 @@
+{
+	"name": "VirtualGF",
+	"description": "Simple & lightweight HTML5 video game framework",
+	"README": "README.md",
+	"repository": "bytesizedpacket/VirtualGF",
+	"author": "Jacob Pedersen <jacob@bsp.im> (https://jacobpedersen.me)",
+	"license": "LGPL-3.0",
+
+	"scripts": {
+		"watch": "gulp",
+		"build": "gulp build"
+	},
+
+	"devDependencies": {
+		"gulp": "3.9.x",
+		"gulp-uglify": "1.5.x",
+		"gulp-rename": "1.2.x",
+		"webpack-stream": "3.2.x"
+	},
+
+	"engine": "node >= 6.0.0"
+}
